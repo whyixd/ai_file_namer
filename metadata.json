@@ -1,0 +1,6 @@
+{
+  "name": "AI Document Namer",
+  "description": "An application that uses AI to suggest names for your uploaded documents based on their content and your custom instructions.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
