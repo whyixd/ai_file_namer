@@ -8,7 +8,7 @@ if (!API_KEY) {
 }
 
 const ai = new GoogleGenAI({ apiKey: API_KEY || "FALLBACK_KEY_IF_NEEDED_FOR_INITIALIZATION_ONLY_BUT_SHOULD_BE_SET" });
-const model = "gemini-2.5-flash-preview-04-17"; 
+const model = "gemini-2.5-flash"; 
 
 const TEXT_MIME_TYPE_PREFIX = "text/";
 const KNOWN_TEXT_MIME_TYPES = [
